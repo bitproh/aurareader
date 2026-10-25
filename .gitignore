@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model weights (too large for GitHub 100MB limit; auto-downloaded on first run)
+models/
+*.onnx
+*.bin
+
+# User local SQLite database & progress
+reader_data.db
+reader_data.db-journal
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# System / IDE
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
